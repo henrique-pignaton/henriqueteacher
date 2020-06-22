@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Loginx</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/barrasup.css">
+
+</head>
+
+<body>
+    <header class="menu-superior-principal">
+        <main>
+            <div class="header-1">
+                <div class="icon">
+                    <img src="./img/logo.png" width="45%" height="25%" />
+                </div>
+                <div class="contato">
+                    <ul>
+                        <li><a href="https://twitter.com/henriquepig"><img src="./img/tt.png" width="25%"
+                                    height="50%"></a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <div class="container">
+        <a class="links" id="paralogin"></a>
+
+
+        <div class="content">
+            <!--FORMULÁRIO DE LOGIN-->
+            <div id="login">
+                <form method="post" action="">
+                    <h1>Login</h1>
+                    <p>
+                        <label for="nome_login">Seu nome</label>
+                        <input id="nome_login" name="nome_login" required="required" type="text"
+                            placeholder="ex. henrique.pignaton@uvvnet.com.br" />
+                    </p>
+
+                    <p>
+                        <label for="email_login">Senha</label>
+                        <input id="email_login" name="email_login" required="required" type="password"
+                            placeholder="ex. senha" />
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                        <label for="manterlogado">Manter-me logado</label>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Logar" />
+                    </p>
+
+                    <p class="link">
+                        Ainda não tem conta?
+                        <a href="./cadastro.html">Cadastre-se</a>
+                    </p>
+                </form>
+            </div>
+</body>
+
+</html>
